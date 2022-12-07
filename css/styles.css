@@ -157,7 +157,9 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     
     background-image:url(../images/Dark-bg.png), url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1600px;
+    background-position: center;
+    
     background-color:var(--hero-bg-color);
     color: #404BBF;
     padding-top: 192px;
@@ -237,21 +239,21 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .advantages_item:nth-child(1)::before{
 
-background-image: url(../images/antenna.png);
+background-image: url(../images/antenna-1.svg);
 }
 
 .advantages_item:nth-child(2)::before {
 
-    background-image: url(../images/clock.png);
+    background-image: url(../images/clock-1.svg);
 }
 
 .advantages_item:nth-child(3)::before {
 
-    background-image: url(../images/diagram.png);
+    background-image: url(../images/diagram-1.svg);
 }
 .advantages_item:nth-child(4)::before {
 
-    background-image: url(../images/astronaut.png);
+    background-image: url(../images/astronaut-1.svg);
 }
 
 
@@ -331,7 +333,47 @@ color: var(--minor-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
+
+
+/* ---------------social-link-------------- */
+.social-link-list{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.social-link-item{
+
+
+}
+.social-link-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:var(--brand-button-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    
+    
+
+}
+.link-insta{
+background-image: url(../images/instagrams.svg);
+
+}
+
+.link-twit{
+    background-image: url(../images/twitters.svg);
+
+}
+
+.link-faceb{ background-image: url(../images/facebooks.svg);}
+
+.link-lincd{background-image: url(../images/linkedins.svg);}
 
 /* ----------------------FOOTER------------------ */
 
