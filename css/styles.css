@@ -381,12 +381,36 @@ height: 16px;
     
 }
    .customer-item{
+    padding: 16px 32px;
     flex-basis: calc((100%-120px)/6);
     height: 88px;
     border: 1px solid #8E8F99;
-        border-radius: 4px;
+    border-radius: 4px;
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+   }
+    .customer-item:hover{
+    border: 1px solid var(--brand-button-color);
+    
+    }
+    .customer-item:hover .customer-icon{
+        fill:var(--brand-button-color);
+    }
+   .customer-icon{
+    width: 104px;
+    height: 56px;
+    fill:#AFB1B8;
+    
    }
 
+   
+   
+
+   
 
 
 /* ----------------------FOOTER------------------ */
@@ -468,7 +492,14 @@ height: 16px;
             .footer-icon-item:hover{
                 background-color:#31D0AA;
             }
-
+            
+            .icons-social-footer {
+            
+                fill: #F4F4FD;
+                ;
+                width: 24px;
+                height: 24px;
+            }
 
         .footer-icon-link{
             }
