@@ -160,7 +160,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     background-size: 1600px;
     background-position: center;
     
-    background-color:var(--hero-bg-color);
+   
     color: #404BBF;
     padding-top: 192px;
     padding-bottom: 192px;
@@ -333,7 +333,7 @@ color: var(--minor-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 
@@ -387,7 +387,7 @@ height: 16px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 
-    display: flex;
+         display: flex;
         justify-content: center;
         align-items: center;
 
@@ -397,9 +397,16 @@ height: 16px;
     border: 1px solid var(--brand-button-color);
     
     }
+        .customer-item:focus {
+            border: 1px solid var(--brand-button-color);
+    
+        }
     .customer-item:hover .customer-icon{
         fill:var(--brand-button-color);
     }
+         .customer-item:focus .customer-icon {
+             fill: var(--brand-button-color);
+         }
    .customer-icon{
     width: 104px;
     height: 56px;
@@ -533,6 +540,7 @@ height: 16px;
      
     
     .card_item{
+        display: block;
             border-bottom-width: 0.5px;
             border-bottom-style: solid;
             border-bottom-color: #F4F4FD;
